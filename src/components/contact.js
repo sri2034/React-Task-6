@@ -38,7 +38,8 @@ function Contact() {
                                     </div>
                                     <div className="col-md-12">
                                         <div className="form-group">
-                                            <input type="submit" value="Send Message" className="btn btn-primary py-3 px-5" />
+                                            <a href='https://wa.me/+919391108156'><input type="button" value="Send Message" className="btn btn-primary py-3 px-5" /></a>
+                                            <a href='mailto:pavansriramkurukuri3@gmail.com'><input type="button" value="Send Email" className="btn btn-primary py-3 px-5" /></a>
                                         </div>
                                     </div>
                                 </div>

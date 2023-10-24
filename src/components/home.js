@@ -8,9 +8,6 @@ function Home() {
         backgroundPosition: 'center center', // Adjust this as needed
     };
 
-    const textTransformStyle = {
-        transform: 'translateY(70%)',
-    };
 
     return (
         <div>
@@ -27,7 +24,7 @@ function Home() {
                                     <div className="text">
                                         <span className="subheading">Hello! This is Kurukuri Pavan Sriram</span>
                                         <h1 className="mb-4 mt-3">Aspiring <span>AI/ML</span> Developer</h1>
-                                        <p><a href="#" className="btn btn-primary">Hire me</a> <a href="#" className="btn btn-primary btn-outline-primary">Download CV</a></p>
+                                        <p><a href="#contact-section" className="btn btn-primary">Hire me</a> <a href="https://drive.google.com/file/d/1ZkXwV_3i7oq2-TXSgnluDub-EO2d8ZDN/view" className="btn btn-primary btn-outline-primary">Download CV</a></p>
                                     </div>
                                 </div>
                             </div>

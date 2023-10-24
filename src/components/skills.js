@@ -1,121 +1,73 @@
 import React from 'react';
+import 'react-circular-progressbar/dist/styles.css';
+import { CircularProgressbar } from 'react-circular-progressbar';
+
+function ProgressCircle({ label, percentage }) {
+    return (
+        <div className="bg-white rounded-lg shadow p-4">
+            <div className="text-center">
+                <h2 className="h5 font-weight-bold mb-4">{label}</h2>
+            </div>
+            <div className="progress-circle text-center">
+                <div style={{ width: '100px', height: '100px', margin: '0 auto' }}>
+                    <CircularProgressbar
+                        value={percentage}
+                        text={`${percentage}%`}
+                    />
+                </div>
+            </div>
+        </div>
+    );
+}
 
 function Skills() {
     return (
-        <section class="bg-light" id="skills-section">
-            <div class="container">
-                <div class="row justify-content-center pb-5">
-                    <div class="col-md-12 heading-section text-center">
-                        <span class="subheading">Skills</span>
-                        <h2 class="mb-4">My Skills</h2>
-                        <p>I think the following skills I Developed can help you to choose me for your project</p>
+        <section className="bg-light" id="skills-section">
+            <div className="container">
+                <div className="row justify-content-center pb-5">
+                    <div className="col-md-12 heading-section text-center">
+                        <span className="subheading">Skills</span>
+                        <h2 className="mb-4">My Skills</h2>
+                        <p>I think the following skills I developed can help you to choose me for your project</p>
                     </div>
                 </div>
-                <div class="row progress-circle mb-5">
-                    <div class="col-lg-4 mb-4">
-                        <div class="bg-white rounded-lg shadow p-4">
-                            <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
-
-                            <div class="progress mx-auto" data-value='95'>
-                                <span class="progress-left">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <span class="progress-right">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                    <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
-                                </div>
-                            </div>
-                        </div>
+                <h3 className='text-center'>Programming Languages</h3>
+                <div className="row progress-circle mb-5">
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="Java" percentage={90} />
                     </div>
-
-                    <div class="col-lg-4 mb-4">
-                        <div class="bg-white rounded-lg shadow p-4">
-                            <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
-
-                            <div class="progress mx-auto" data-value='98'>
-                                <span class="progress-left">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <span class="progress-right">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                    <div class="h2 font-weight-bold">98<sup class="small">%</sup></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="Python" percentage={80} />
                     </div>
-
-                    <div class="col-lg-4 mb-4">
-                        <div class="bg-white rounded-lg shadow p-4">
-                            <h2 class="h5 font-weight-bold text-center mb-4">JAVA</h2>
-
-                            <div class="progress mx-auto" data-value='68'>
-                                <span class="progress-left">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <span class="progress-right">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                    <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="MySQL" percentage={90} />
                     </div>
-
-                    <div class="col-lg-4 mb-4">
-                        <div class="bg-white rounded-lg shadow p-4">
-                            <h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
-
-                            <div class="progress mx-auto" data-value='98'>
-                                <span class="progress-left">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <span class="progress-right">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                    <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <h3 className='text-center'>Web Development</h3>
+                <div className="row progress-circle mb-5">
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="HTML" percentage={95} />
                     </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="bg-white rounded-lg shadow p-4">
-                            <h2 class="h5 font-weight-bold text-center mb-4">MySQL</h2>
-
-                            <div class="progress mx-auto" data-value='98'>
-                                <span class="progress-left">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <span class="progress-right">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                    <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="CSS" percentage={90} />
                     </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="bg-white rounded-lg shadow p-4" >
-                            <h2 class="h5 font-weight-bold text-center mb-4">Java Script</h2>
-
-                            <div class="progress mx-auto" data-value='98'>
-                                <span class="progress-left">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <span class="progress-right">
-                                    <span class="progress-bar border-primary"></span>
-                                </span>
-                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                    <div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="JavaScript" percentage={90} />
+                    </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="PHP" percentage={90} />
+                    </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="React JS" percentage={85} />
+                    </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="Node JS" percentage={85} />
+                    </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="Express JS" percentage={85} />
+                    </div>
+                    <div className="col-lg-4 mb-4">
+                        <ProgressCircle label="Mongo DB" percentage={95} />
                     </div>
                 </div>
             </div>
@@ -124,4 +76,3 @@ function Skills() {
 }
 
 export default Skills;
-

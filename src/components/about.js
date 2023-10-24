@@ -4,7 +4,7 @@ import image1 from "../bg_1s.jpg";
 function About() {
     const backgroundStyle = {
         backgroundImage: `url(${image1})`,
-        backgroundSize: 'cover', 
+        backgroundSize: '80% auto', 
         backgroundPosition: 'center center', 
     };
     return (

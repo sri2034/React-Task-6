@@ -6446,7 +6446,7 @@ button.bg-dark:focus {
 @supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;
-    position: sticky;
+    position: sticky; 
     top: 0;
     z-index: 1020; } }
 
@@ -8187,7 +8187,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-brand span {
       color: #000000; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
-      color: #000000 !important; }
+      color: #FFFFFF !important; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
         color: #fff; } }
