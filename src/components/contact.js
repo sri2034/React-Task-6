@@ -5,41 +5,40 @@ function Contact() {
         <div>
             <section className="ftco-section contact-section ftco-no-pb" id="contact-section">
                 <div className="container">
-                    <div className="row justify-content-center mb-5 pb-3">
-                        <div className="col-md-7 heading-section text-center ftco-animate">
-                            <span className="subheading">Contact us</span>
-                            <h2 className="mb-4">Have a Project?</h2>
+                    <div className="row justify-content-center">
+                        <div className="col-md-7 heading-section text-center">
+                            <span className="subheading">Have an Opportunity</span>
+                            <h2 className='heading'>Contact Info</h2>
                         </div>
                     </div>
 
                     <div className="row block-9">
                         <div className="col-md-8">
-                            <form action="#" className="bg-light p-4 p-md-5 contact-form">
+                            <form action="http://localhost:4000/submit-form" method='POST' className="bg-light p-4 p-md-5 contact-form">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Your Name" />
+                                            <input type="text" name='name' className="form-control" placeholder="Your Name" />
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Your Email" />
+                                            <input type="text" name='email' className="form-control" placeholder="Your Email" />
                                         </div>
                                     </div>
                                     <div className="col-md-12">
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Subject" />
+                                            <input type="text" name='subject' className="form-control" placeholder="Subject" />
                                         </div>
                                     </div>
                                     <div className="col-md-12">
                                         <div className="form-group">
-                                            <textarea name="" id="" cols="30" rows="7" className="form-control" placeholder="Message"></textarea>
+                                            <textarea name="Description" cols="30" rows="7" className="form-control" placeholder="Description"></textarea>
                                         </div>
                                     </div>
                                     <div className="col-md-12">
-                                        <div className="form-group">
-                                            <a href='https://wa.me/+919391108156'><input type="button" value="Send Message" className="btn btn-primary py-3 px-5" /></a>
-                                            <a href='mailto:pavansriramkurukuri3@gmail.com'><input type="button" value="Send Email" className="btn btn-primary py-3 px-5" /></a>
+                                        <div className="form-group text-center">
+                                            <input type="submit" value="Send Message" className="btn btn-primary py-3 px-5" />
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +61,7 @@ function Contact() {
                                         <span className="fa fa-phone"></span>
                                     </div>
                                     <div className="text">
-                                        <p><span>Phone:</span> <a href="tel://1234567920">+91 93911 08156</a></p>
+                                        <p><span>Phone:</span> <a href="https://wa.me/+919391108156">+91 93911 08156</a></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
@@ -78,7 +77,7 @@ function Contact() {
                                         <span className="fa fa-globe"></span>
                                     </div>
                                     <div className="text">
-                                        <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                        <p><span>LinkedIn</span> <a href="#">https://www.linkedin.com/in/kurukuri-pavan-sriram-88528627b/</a></p>
                                     </div>
                                 </div>
                             </div>

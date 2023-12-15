@@ -3,7 +3,7 @@ import image1 from "../ECS.jpg";
 import image2 from "../project2.jpg";
 import image3 from "../project3.jpg";
 import image4 from "../project4.jpg";
-
+import image5 from "../project5.jpg"
 
 
 function Projects() {
@@ -24,6 +24,11 @@ function Projects() {
     };
     const backgroundStyle4 = {
         backgroundImage: `url(${image4})`, 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center center', 
+    };
+    const backgroundStyle5 = {
+        backgroundImage: `url(${image5})`, 
         backgroundSize: 'cover', 
         backgroundPosition: 'center center', 
     };
@@ -51,7 +56,7 @@ function Projects() {
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={backgroundStyle2}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
-                                <h3><a href="#">Gender Classification</a></h3>
+                                <h3><a href="https://www.kaggle.com/code/pavansriram3/resnet-gender-dl">Gender Classification</a></h3>
                                 <span>Deep Learning Project</span>
                             </div>
                         </div>
@@ -69,8 +74,17 @@ function Projects() {
                         <div class="project img shadow d-flex justify-content-center align-items-center" style={backgroundStyle4}>
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
-                                <h3><a href="#">On going MERN PROJECT</a></h3>
-                                <span>Web Development</span>
+                                <h3><a href="https://blogging-website-frontend.vercel.app/">Blogging Webiste</a></h3>
+                                <span>MERN PROJECT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project img shadow d-flex justify-content-center align-items-center" style={backgroundStyle5}>
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a href="https://www.kaggle.com/code/pavansriram3/fork-of-shape-detector-03023e">AI & ML PROJECT for display verification of cockpit</a></h3>
+                                <span>CSIR-NAL Internship</span>
                             </div>
                         </div>
                     </div>

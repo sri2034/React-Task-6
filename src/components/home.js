@@ -12,12 +12,13 @@ function Home() {
     return (
         <div>
             <section id="home-section" className="home">
-                <div className="home-slider owl-carousel">
+                <div style={{padding:'70px 0px'}} className="home-slider owl-carousel">
                     <div className="slider-item">
                         <div className="overlay"></div>
                         <div className="container-fluid px-md-0">
                             <div className="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
                                 <div className="one-third order-md-last img" style={backgroundStyle}>
+                                    <div className='overlay'></div>
                                     <div className="overlay-1"></div>
                                 </div>
                                 <div className="one-forth d-flex align-items-center">

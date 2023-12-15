@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from "../bg_1s.jpg";
+import image1 from "../bg_2.jpg";
 
 function About() {
     const backgroundStyle = {
@@ -10,7 +10,7 @@ function About() {
     return (
         <div>
             <section className="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-                <div className="container">
+                <div style={{marginTop:'100px'}} className="container">
                     <div className="row d-flex no-gutters">
                         <div className="col-md-6 col-lg-5 d-flex">
                             <div className="img-about img d-flex align-items-stretch" style={backgroundStyle}>
@@ -37,7 +37,7 @@ function About() {
                                         </ul>
                                     </div>
                                     <div className="col-md-12">
-                                        <div className="my-interest d-lg-flex w-100">
+                                        <div className="my-interest d-lg-flex">
                                             <div className="interest-wrap d-flex align-items-center">
                                                 <div className="icon d-flex align-items-center justify-content-center">
                                                     <span className="flaticon-listening"></span>
