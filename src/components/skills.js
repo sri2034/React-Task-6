@@ -33,48 +33,46 @@ function Skills() {
                     </div>
                         <h3 className='text-center'>Programming Languages</h3>
                         <div className="row progress-circle mb-5">
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="Java" percentage={90} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="Python" percentage={80} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="MySQL" percentage={90} />
                             </div>
                         </div>
-                    {/* </div> */}
                     <div>
                         <h3 className='text-center'>Web Development</h3>
                         <div className="row progress-circle mb-5">
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="HTML" percentage={95} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="CSS" percentage={90} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="JavaScript" percentage={90} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="PHP" percentage={90} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="React JS" percentage={85} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="Node JS" percentage={85} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="Express JS" percentage={85} />
                             </div>
-                            <div className="col-lg-4 mb-4">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
                                 <ProgressCircle label="Mongo DB" percentage={95} />
                             </div>
                         </div>
                     </div>
                 </div>
-            {/* </div> */}
         </section>
     );
 }

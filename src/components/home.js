@@ -4,7 +4,7 @@ import image1 from "../bg_1.jpg";
 function Home() {
     const backgroundStyle = {
         backgroundImage: `url(${image1})`, // Use the imported image as the background
-        backgroundSize: 'cover', // Adjust this as needed
+        backgroundSize: '', // Adjust this as needed
         backgroundPosition: 'center center', // Adjust this as needed
     };
 
