@@ -52,7 +52,7 @@ function Contact() {
                                         <span className="fa fa-map-marker"></span>
                                     </div>
                                     <div className="text">
-                                        <p><span>Address:</span> 5-48, Main Road, Aratlakatta, Karapa mandal, Kakinada district, AP, India, 533016</p>
+                                        <a href='https://maps.app.goo.gl/Sznudf2ZovB96Tbt7'><span>Address:</span> 5-48, Main Road, Aratlakatta, Karapa mandal, Kakinada district, AP, India, 533016</a>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
