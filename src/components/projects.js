@@ -3,8 +3,10 @@ import image1 from "../ECS.jpg";
 import image2 from "../project2.jpg";
 import image3 from "../project3.jpg";
 import image4 from "../project4.jpg";
-import image5 from "../project5.jpg"
-
+import image5 from "../project5.jpg";
+import image6 from "../project6.jpg";
+import image7 from "../project7.jpg";
+import image8 from "../project8.jpg";
 
 function Projects() {
     const backgroundStyle1 = {
@@ -32,14 +34,29 @@ function Projects() {
         backgroundSize: 'cover', 
         backgroundPosition: 'center center', 
     };
+    const backgroundStyle6 = {
+        backgroundImage: `url(${image6})`, 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center center', 
+    };
+    const backgroundStyle7 = {
+        backgroundImage: `url(${image7})`, 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center center', 
+    };
+    const backgroundStyle8 = {
+        backgroundImage: `url(${image8})`, 
+        backgroundSize: 'cover', 
+        backgroundPosition: 'center center', 
+    };
     return (
         <section class="ftco-section ftco-project" id="projects-section">
             <div class="container-fluid px-md-4">
                 <div class="row justify-content-center pb-5">
                     <div class="col-md-12 heading-section text-center">
-                        <span class="subheading">Accomplishments</span>
+                        <span class="subheading">Projects and Internships</span>
                         <h2 class="mb-4">Our Projects</h2>
-                        <p>These are few Projects I worked and I Successfully developed</p>
+                        <p>These are following Projects that I worked and Successfully developed</p>
                     </div>
                 </div>
                 <div class="row">
@@ -48,7 +65,7 @@ function Projects() {
                             <div class="overlay"></div>
                             <div class="text text-center p-4">
                                 <h3><a href="#">Overspeeding alert System using Raspberry pi pico</a></h3>
-                                <span>ECS Project</span>
+                                <span>ECS Project-1</span>
                             </div>
                         </div>
                     </div>
@@ -85,6 +102,33 @@ function Projects() {
                             <div class="text text-center p-4">
                                 <h3><a href="https://www.kaggle.com/code/pavansriram3/fork-of-shape-detector-03023e">AI & ML PROJECT for display verification of cockpit</a></h3>
                                 <span>CSIR-NAL Internship</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project img shadow d-flex justify-content-center align-items-center" style={backgroundStyle6}>
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a href="https://ecs-frontend-green.vercel.app/">Bus Location Tracker using Aurdino Uno </a></h3>
+                                <span>ECS Project-2</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project img shadow d-flex justify-content-center align-items-center" style={backgroundStyle7}>
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a href="#">Gamer's Data Visualization</a></h3>
+                                <span>Data Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="project img shadow d-flex justify-content-center align-items-center" style={backgroundStyle8}>
+                            <div class="overlay"></div>
+                            <div class="text text-center p-4">
+                                <h3><a href="https://www.kaggle.com/code/pavansriram3/capstone/">Plant weed detection using Segmentation</a></h3>
+                                <span>Segmentation</span>
                             </div>
                         </div>
                     </div>
