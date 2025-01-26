@@ -4,8 +4,8 @@ import image1 from "../bg_1.jpg";
 function Home() {
     const backgroundStyle = {
         backgroundImage: `url(${image1})`, // Use the imported image as the background
-        backgroundSize: '', // Adjust this as needed
-        backgroundPosition: 'center center', // Adjust this as needed
+        backgroundSize: '', 
+        backgroundPosition: 'center center',
     };
 
 
@@ -25,7 +25,7 @@ function Home() {
                                     <div className="text">
                                         <span className="subheading">Hello! This is Kurukuri Pavan Sriram</span>
                                         <h1 className="mb-4 mt-3">Aspiring <span>AI/ML</span> Developer</h1>
-                                        <p><a href="#contact-section" className="btn btn-primary">Hire me</a> <a href="https://drive.google.com/file/d/1ZkXwV_3i7oq2-TXSgnluDub-EO2d8ZDN/view" className="btn btn-primary btn-outline-primary">Download CV</a></p>
+                                        <p><a href="#contact-section" className="btn btn-primary">Connect with me</a> <a href="https://drive.google.com/file/d/1-NKv7wmMGS2pyYrxf4bgHvDKzs6xuK3k/view" className="btn btn-primary btn-outline-primary">Download Resume</a></p>
                                     </div>
                                 </div>
                             </div>
