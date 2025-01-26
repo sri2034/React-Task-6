@@ -21,7 +21,6 @@ function Nav() {
                             <li className="nav-item"><a href="#about-section" className="nav-link" onClick={toggleNav}><span>About</span></a></li>
                             <li className="nav-item"><a href="#skills-section" className="nav-link" onClick={toggleNav}><span>Skills</span></a></li>
                             <li className="nav-item"><a href="#projects-section" className="nav-link" onClick={toggleNav}><span>Projects</span></a></li>
-                            // <li className="nav-item"><a href="#blog-section" className="nav-link" onClick={toggleNav}><span>Blog</span></a></li>
                             <li className="nav-item"><a href="#contact-section" className="nav-link" onClick={toggleNav}><span>Contact</span></a></li>
                         </ul>
                     </div>
