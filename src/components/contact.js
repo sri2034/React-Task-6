@@ -7,7 +7,7 @@ function Contact() {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-7 heading-section text-center">
-                            <span className="subheading">Have an Opportunity</span>
+                            <span className="subheading">Get Connected</span>
                             <h2 className='heading'>Contact Info</h2>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ function Contact() {
                                         <span className="fa fa-paper-plane"></span>
                                     </div>
                                     <div className="text">
-                                        <p><span>Email:</span> <a href="mailto:pavansriramkurukuri3@gmail.com">pavansriramkurukuri3@gmail.com</a></p>
+                                        <p><span>Email:</span> <a href="mailto:pavansriram.k4@gmail.com">pavansriram.k4@gmail.com</a></p>
                                     </div>
                                 </div>
                                 <div className="dbox w-100 d-flex">
