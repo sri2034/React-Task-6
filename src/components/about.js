@@ -23,16 +23,16 @@ function About() {
                             <div className="py-md-5">
                                 <div className="row justify-content-start pb-3">
                                     <div className="col-md-12 heading-section">
-                                        <span className="subheading">My Intro</span>
+                                        <span className="subheading">Personal Details</span>
                                         <h2 className="mb-4" style={{ fontSize: '34px', textTransform: 'capitalize' }}>About Me</h2>
                                         <p>Eager to do on a challenging project, through which I can leverage my skills and strengths to drive collaborative experience and success.</p>
                                         <ul className="about-info mt-4 px-md-0 px-2">
                                             <li className="d-flex"><span>Name:</span> <span>KURUKURI PAVAN SRIRAM</span></li>
                                             <li className="d-flex"><span>Date of birth:</span> <span>JULY 22, 2004</span></li>
-                                            <li className="d-flex"><span>Address:</span> <span>Aratlakatta, Mainroad, Kakinada dist, AP</span></li>
+                                            <li className="d-flex"><span>Address:</span> <span>Aratlakatta, Kakinada, Andhra Pradesh</span></li>
                                             <li className="d-flex"><span>Zip code:</span> <span>533016</span></li>
                                             <li className="d-flex"><span>Personal Email:</span> <span>pavansriramkurukuri3@gmail.com</span></li>
-                                            <li className="d-flex"><span>official Email:</span> <span>pavan.21bce9992@vitapstudent.ac.in</span></li>
+                                            <li className="d-flex"><span>official Email:</span> <span>pavansriram.k4@gmail.com</span></li>
                                             <li className="d-flex"><span>Phone: </span> <span>+91 93911 08156</span></li>
                                         </ul>
                                     </div>
