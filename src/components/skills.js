@@ -26,11 +26,11 @@ function Skills() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 heading-section text-center">
-                        <span className="subheading">Skills</span>
+                        <span className="subheading">Areas of Expertise</span>
                         <h2 className="mb-4">My Skills</h2>
-                        <p>I think the following skills I developed can help you to choose me for your company</p>
+                        <p>The following are my technical skills I developed during my acedamics</p>
                     </div>
-                    </div>
+                </div>
                         <h3 className='text-center'>Programming Languages</h3>
                         <div className="row progress-circle mb-5">
                             <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
@@ -43,7 +43,6 @@ function Skills() {
                                 <ProgressCircle label="MySQL" percentage={90} />
                             </div>
                         </div>
-                    <div>
                         <h3 className='text-center'>Web Development</h3>
                         <div className="row progress-circle mb-5">
                             <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
@@ -71,7 +70,19 @@ function Skills() {
                                 <ProgressCircle label="Mongo DB" percentage={95} />
                             </div>
                         </div>
-                    </div>
+                        <h3 className='text-center'>Acedamic Expertise</h3>
+                        <div className="row progress-circle mb-5">
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
+                                <ProgressCircle label="Machine Learning" percentage={90} />
+                            </div>
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
+                                <ProgressCircle label="Deep Learning" percentage={80} />
+                            </div>
+                            <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
+                                <ProgressCircle label="Digital Image Processing" percentage={90} />
+                            </div>
+                        </div>
+                    <div>
                 </div>
         </section>
     );
