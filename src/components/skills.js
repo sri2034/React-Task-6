@@ -76,10 +76,10 @@ function Skills() {
                                 <ProgressCircle label="Machine Learning" percentage={90} />
                             </div>
                             <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
-                                <ProgressCircle label="Deep Learning" percentage={80} />
+                                <ProgressCircle label="Deep Learning" percentage={75} />
                             </div>
                             <div className="col-lg-4 col-sm-auto col-md-auto mb-4">
-                                <ProgressCircle label="Digital Image Processing" percentage={90} />
+                                <ProgressCircle label="Image Processing" percentage={75} />
                             </div>
                         </div>
                     </div>
