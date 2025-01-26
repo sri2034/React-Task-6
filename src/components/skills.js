@@ -82,8 +82,8 @@ function Skills() {
                                 <ProgressCircle label="Digital Image Processing" percentage={90} />
                             </div>
                         </div>
-                    <div>
-        </section>
+                    </div>
+            </section>
     );
 }
 
