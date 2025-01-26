@@ -19,7 +19,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Blog />
+      // <Blog />
       <Contact />
     </div>
   );
